@@ -6,6 +6,7 @@
 #
 
 touch /tmp/forwarderSetup_start
+
 echo "$@" > /tmp/forwarderSetup_params
 
 #  Install Bind9
